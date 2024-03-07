@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+.rate-container {
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+
+  width: 327px;
+  padding: 24px 24px 32px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+.rate-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(150, 159, 173, 1);
+}
+
+#btns-container {
+  display: flex;
+  gap: 17px;
+  margin-top: 24px;
+}
+
+.rate {
+  width: 42px;
+  height: 42px;
+  background: rgba(38, 46, 56, 1);
+  color: rgba(124, 135, 152, 1);
+  font-family: "Overpass", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.17499999701976776px;
+  text-align: center;
+  border: none;
+  border-radius: 50%;
+}
+
+.rate:hover {
+  background: rgba(124, 135, 152, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+#submit {
+  background: rgba(252, 118, 20, 1);
+  width: 279px;
+  height: 45px;
+  border: none;
+  margin-top: 36px;
+  font-family: "Overpass", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1.8666666746139526px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+}
