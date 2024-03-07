@@ -1,10 +1,20 @@
+import "./reset.css";
 import "./App.css";
+import { useState } from "react";
 import Rate from "./components/Rate/Rate";
+import Result from "./components/Result/Result";
 
 function App() {
+  const [submit, setSubmit] = useState(false);
+  const [rate, setRate] = useState(null);
+
   return (
     <>
-      <Rate />
+      {submit ? (
+        <Result rate={rate} />
+      ) : (
+        <Rate setSubmit={setSubmit} rate={rate} setRate={setRate} />
+      )}
     </>
   );
 }

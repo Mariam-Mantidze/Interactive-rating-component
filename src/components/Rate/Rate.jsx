@@ -2,9 +2,8 @@ import Star from "/images/icon-star.svg";
 import "./rate.css";
 import { useState } from "react";
 
-export default function Rate() {
+export default function Rate({ setSubmit, rate, setRate }) {
   let buttons = [1, 2, 3, 4, 5];
-  const [rate, setRate] = useState(null);
   console.log(rate);
   return (
     <>
@@ -37,7 +36,13 @@ export default function Rate() {
           ))}
         </div>
 
-        <button id="submit">Submit</button>
+        <button
+          id="submit"
+          onClick={() => {
+            rate && setSubmit(true);
+          }}>
+          Submit
+        </button>
       </div>
     </>
   );

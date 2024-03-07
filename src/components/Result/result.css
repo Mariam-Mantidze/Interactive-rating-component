@@ -1,0 +1,27 @@
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 34px 24px 37px 24px;
+}
+
+.result-choice {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(252, 118, 20, 1);
+  background: rgba(38, 46, 56, 1);
+  padding: 5px 12px;
+  border-radius: 20px;
+
+  margin-top: 24px;
+}
+
+#thank-you {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.result-text {
+  text-align: center;
+}
