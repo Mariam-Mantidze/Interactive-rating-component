@@ -26,7 +26,7 @@ export default function Rate({ setSubmit, rate, setRate }) {
               style={
                 rate == button
                   ? {
-                      backgroundColor: "rgba(124, 135, 152, 1)",
+                      backgroundColor: "rgba(252, 118, 20, 1)",
                       color: "rgba(255, 255, 255, 1)",
                     }
                   : {}
