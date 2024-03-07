@@ -57,10 +57,11 @@ h1 {
   text-align: center;
   border: none;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .rate:hover {
-  background: rgba(124, 135, 152, 1);
+  background: rgba(252, 118, 20, 1);
   color: rgba(255, 255, 255, 1);
 }
 
@@ -77,4 +78,10 @@ h1 {
   letter-spacing: 1.8666666746139526px;
   color: rgba(255, 255, 255, 1);
   border-radius: 20px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(252, 118, 20, 1);
 }
